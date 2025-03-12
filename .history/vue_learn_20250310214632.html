@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 数据响应 -->
+      <h1>{{msg}}</h1>
+      <!-- v-for 数组数据 -->
+      <table border="1 solid" colspa="0" cellspacing="0">
+        <tr>
+            <th>文章标题</th>
+            <th>分类</th>
+            <th>发表时间</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <!-- 出现多次tr -->
+        <tr v-for="(article,index) in articleList">
+            <td>{{article.title}}</td>
+            <td>{{article.category}}</td>
+            <td>{{article.time}}</td>
+            <td>{{article.state}}</td>
+            <td>
+                <button>编辑</button>
+                <button>删除</button>
+            </td>
+        </tr>
+      </table>
+      <!-- v-bind 绑定数据 -->
+      <a v-bind:href="url">黑马官网</a>
+      <a :href="url">黑马官网</a>
+      <br/>
+      <!-- v-if -->
+      手链价格为:  <span v-if="customer.level>=0 &&customer.level<=1">9.9</span>  
+      <span v-else-if="customer.level>=2 &&customer.level<=4">19.9</span> 
+      <span  v-else>29.9</span>
+      <br/>
+      <!-- v-show -->
+      手链价格为:  <span v-show="customer.level>=0 &&customer.level<=1">9.9</span>  
+      <span v-show="customer.level>=2 &&customer.level<=4">19.9</span> 
+      <span  v-show="customer.level>=5">29.9</span>
+      <br/>
+      <!-- v-on -->
+      <button v-on:click="money">点我有惊喜</button> &nbsp;
+      <button @click="love">再点更惊喜</button>
+    </div>
+
+    <!-- 引入vue模块 -->
+    <script type="module">
+      import { createApp } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+      // 创建vue的应用实例
+      createApp({
+        data() {
+          return {
+            // 定义数据
+            // 数据响应
+            msg: "hello vue3",
+            // v-for 数组数据
+            articleList: [
+              {
+                title: "医疗反腐绝非砍医护收入",
+                category: "时事",
+                time: "2023-09-5",
+                state: "已发布",
+              },
+              {
+                title: "中国男篮缘何一败涂地？",
+                category: "篮球",
+                time: "2023-09-5",
+                state: "草稿",
+              },
+              {
+                title: "华山景区已受大风影响阵风达7-8级，未来24小时将持续",
+                category: "旅游",
+                time: "2023-09-5",
+                state: "已发布",
+              },
+            ],
+            // v-bind 绑定数据
+            url:"https://www.itheima.com",
+            // v-if和v-show
+            customer:{
+              name:'zhangsan',
+              level:1
+            }
+          };
+        },
+        methods:{
+          money:function(){
+            alert('捡到五分钱')
+          },
+          love:function(){
+            alert('爱你一万年')
+          }
+        }
+      }).mount("#app");
+    </script>
+  </body>
+</html>
