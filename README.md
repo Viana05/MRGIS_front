@@ -15,3 +15,9 @@
 #### 6、安装persist,npm install pinia-persistedstate-plugin
 
 #### 7、安装文本富集器,npm install @vueup/vue-quill@latest --save
+
+#### ---8、安装自定义icon,npm i vite-plugin-svg-icons -D
+
+#### ---9、安装svg,npm i svg-sprite-loader@4.1.3
+
+#### 10、安装cesium,npm i cesium@1.99 vite-plugin-cesium 
