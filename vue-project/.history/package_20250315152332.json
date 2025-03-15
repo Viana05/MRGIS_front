@@ -1,0 +1,32 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.8.2",
+    "cesium": "1.99",
+    // "esobjs-xe2-plugin": "^0.1.134",
+    "pinia": "^3.0.1",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "svg-sprite-loader": "^4.1.3",
+    "vite-plugin-cesium": "^1.2.23",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    // "vue-xe2-plugin": "^0.1.19"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.1",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "esobjs-xe2-plugin": "^0.1.83",
+    "vue-xe2-plugin": "^0.1.6"
+  }
+}
