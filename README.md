@@ -21,3 +21,21 @@
 #### ---9、安装svg,npm i svg-sprite-loader@4.1.3
 
 #### 10、安装cesium,npm i cesium@1.99 vite-plugin-cesium 
+
+
+
+cesium功能设计
+
+信息框点击弹框
+
+标签
+
+路径
+
+区域边界
+
+等高线
+
+点线面绘制、编辑
+
+测量（点位、距离、面积、方位角、高度）
