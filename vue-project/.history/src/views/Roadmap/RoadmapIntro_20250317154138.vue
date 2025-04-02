@@ -1,0 +1,40 @@
+<script setup>
+import { Calendar } from "@element-plus/icons-vue";
+</script>
+
+<template>
+  <el-tabs type="border-card" class="demo-tabs">
+    <el-tab-pane>
+      <template #label>
+        <span class="custom-tabs-label">
+          <span>徐州</span>
+        </span>
+      </template>
+      徐州
+    </el-tab-pane>
+    <el-tab-pane>
+      <template #label>
+        <span class="custom-tabs-label">
+          <span>连云港</span>
+        </span>
+      </template>
+      连云港
+    </el-tab-pane>
+  </el-tabs>
+</template>
+
+<style>
+.demo-tabs > .el-tabs__content {
+  padding: 32px;
+  color: #6b778c;
+  font-size: 32px;
+  font-weight: 600;
+}
+.demo-tabs .custom-tabs-label .el-icon {
+  vertical-align: middle;
+}
+.demo-tabs .custom-tabs-label span {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+</style>

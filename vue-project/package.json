@@ -9,11 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cesium/engine": "^15.0.0",
+    "@cesium/widgets": "^11.0.0",
     "@vueup/vue-quill": "^1.2.0",
     "axios": "^1.8.2",
     "cesium": "1.99",
     "copy-webpack-plugin": "^5.0.4",
     "esobjs-xe2-plugin": "^0.1.83",
+    "exif-reader": "^2.0.2",
+    "exifreader": "^4.27.0",
     "pinia": "^3.0.1",
     "pinia-persistedstate-plugin": "^0.1.0",
     "svg-sprite-loader": "^4.1.3",
@@ -24,6 +28,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "less": "^4.2.2",
     "vite": "^6.2.1",
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-plugin-vue-devtools": "^7.7.2"
