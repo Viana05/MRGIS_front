@@ -1,0 +1,126 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.29017500000009,
+                    34.646777778000057
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Image": "七十二洞",
+                "Latitude": 34.646777777777778,
+                "Longitude": 119.290175,
+                "Detail": "七十二洞并非指七十二个洞穴，而是泛指数量众多的洞穴。这些洞穴是千万年前一次猛烈造山运动留下的痕迹，许多巨大石块交叉垒叠，由崩塌自然形成这些洞穴，未来将可能继续发生崩塌，形成更多的洞穴。"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.28376388900006,
+                    34.638930556000048
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Image": "基岩",
+                "Latitude": 34.638930555555554,
+                "Longitude": 119.28376388888888,
+                "Detail": "基岩指经过风化作用后，原来在高温高压下形成的矿物被破坏，形成的一些在常温常压下较稳定的新矿物所构成的岩石。"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.28096111100001,
+                    34.638883333000081
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Image": "断层谷",
+                "Latitude": 34.638883333333332,
+                "Longitude": 119.28096111111111
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.29126388900011,
+                    34.645880556000066
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Image": "海侵石",
+                "Latitude": 34.645880555555557,
+                "Longitude": 119.29126388888889
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.28400000000011,
+                    34.640416667000068
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Image": "滑坡隐患点",
+                "Latitude": 34.640416666666667,
+                "Longitude": 119.28399999999999
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.27101666700003,
+                    34.641494444000045
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "Image": "片岩&板岩",
+                "Latitude": 34.641494444444447,
+                "Longitude": 119.27101666666667
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.28358333300002,
+                    34.63812222200005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "Image": "背斜&沟谷",
+                "Latitude": 34.638122222222222,
+                "Longitude": 119.28358333333333
+            }
+        }
+    ]
+}

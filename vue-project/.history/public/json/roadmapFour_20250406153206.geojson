@@ -1,0 +1,178 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48459166700002,
+                    34.700161111000057
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Image": "劈理",
+                "Latitude": 34.700161111111115,
+                "Longitude": 119.48459166666667,
+                "Detail": "当岩浆岩在地壳深处受到高温、高压以及区域应力的作用时，可能发生变质作用。这一过程中，如果岩石受到定向压力，会形成一系列平行或近似平行的薄片或薄板的构造面，这些构造面称为劈理。"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.453813889,
+                    34.767388889000074
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Image": "海滩",
+                "Latitude": 34.767388888888888,
+                "Longitude": 119.45381388888889,
+                "Detail": "连岛海滩的成因是波浪作用、潮汐作用、地质构造与海岸侵蚀、河流搬运以及气候与风向等多种自然因素综合作用的结果"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48295000000007,
+                    34.697211111000058
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Image": "海蚀崖",
+                "Latitude": 34.697211111111109,
+                "Longitude": 119.48295,
+                "Detail": "在近岸水下斜坡有较大倾斜和风浪盛行的地带，击岸浪携带岩石碎屑或砂砾石不断拍击、冲刷、掏蚀陡崖，导致崖脚形成浪蚀龛。随着击岸浪的不断冲刷和掏蚀，凹穴逐渐扩大，最终使上部岩石失去支撑而崩塌，形成陡峭的崖壁，即海蚀崖。"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48493611100002,
+                    34.700141667000082
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Image": "海蚀平台",
+                "Latitude": 34.700141666666667,
+                "Longitude": 119.48493611111111
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48293611100007,
+                    34.701791667000066
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Image": "海蚀洞穴",
+                "Latitude": 34.701791666666672,
+                "Longitude": 119.48293611111112
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48383611100007,
+                    34.700244444000077
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "Image": "海蚀穴",
+                "Latitude": 34.700244444444451,
+                "Longitude": 119.48383611111112
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48228333300005,
+                    34.701625000000035
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "Image": "石英片麻岩",
+                "Latitude": 34.701625,
+                "Longitude": 119.48228333333334
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48493611100002,
+                    34.70013055600009
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "Image": "积岩",
+                "Latitude": 34.70013055555556,
+                "Longitude": 119.48493611111111
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.21567500000003,
+                    34.594497222000086
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "Image": "连云港市规划展示中心大厅",
+                "Latitude": 34.594497222222223,
+                "Longitude": 119.215675
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.48453611100001,
+                    34.700158333000047
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "Image": "钾长石",
+                "Latitude": 34.700158333333334,
+                "Longitude": 119.48453611111111
+            }
+        }
+    ]
+}

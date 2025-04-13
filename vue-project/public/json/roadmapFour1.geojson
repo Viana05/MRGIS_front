@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.453813889,
+                    34.767388889000074
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Image": "海滩",
+                "Latitude": 34.767388888888888,
+                "Longitude": 119.45381388888889,
+                "Detail": "连岛海滩的成因是波浪作用、潮汐作用、地质构造与海岸侵蚀、河流搬运以及气候与风向等多种自然因素综合作用的结果"
+            }
+        }
+    ]
+}
